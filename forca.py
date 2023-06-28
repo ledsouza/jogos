@@ -3,13 +3,13 @@ def jogar():
     print("***Bem vindo ao jogo da Forca!***")
     print("*********************************")
 
-    print(letras_acertadas)
-
     palavra_secreta = 'banana'
     letras_acertadas = ["_", "_", "_", "_", "_", "_"]
 
     enforcou = False
     acertou = False
+
+    print(letras_acertadas)
 
     while(not enforcou and not acertou):
         chute  = input('Qual letra? ')
